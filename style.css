@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+body {
+     overflow-x: hidden;
+}
+
+/* navbar */
+#navbar {
+    background-image: linear-gradient(to right, #36C2CE, #478CCF) !important;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 99999;
+}
+
+#navbar .navbar{
+    
+}
+
+#navbar .navbar-brand {
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+#navbar ul li {
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+#navbar .navbar a{
+    color: #fff !important;
+}
+/* navbar */
+
+/* home */
+#home {
+    margin: 5% 0; 
+}
+
+#home h2{
+    margin-top: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+
+#home p {
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+#home img {
+    max-width: 440px;
+}
+#home .col-md-6:nth-child(1) {
+    --animate-duration: 300ms;
+}
+
+#home .col-md-6:nth-child(2) {
+    --animate-duration: 900ms;
+}
+
+#home .btn:nth-child(3){
+    color: #fff !important;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, #36C2CE, #478CCF) !important;
+}
+
+@media screen and (max-width: 576px) {
+    #home img {
+        max-width: 330px;
+    }
+}
+/* home */
+
+/* about */
+#about {
+    padding: 80px 0;
+}
+
+.title {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+@media screen  and (max-width:576px) {
+    #about img {
+        width: 350px;
+    }
+}
+/* about */
+
+/* features */
+
+#features {
+    padding: 80px 0;
+    background-color: #eee;
+}
+
+#features .feature {
+    width: 30%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-image: linear-gradient(to right, #36C2CE, #478CCF) !important;
+}
+
+   
+#features .feature .text-feature {
+    font-size: 20px;
+}
+
+#features img {
+    width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    #features .feature {
+        width: 80%;
+        margin: 10px ;
+    }
+
+    #features .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #features .feature {
+        width: 100%;
+        margin: 10px ;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #features .feature {
+        width: 90%;
+        margin: 10px ;
+    }
+}
+
+
+/* features */
+
+/* project */
+
+#project{
+    padding: 75px 0;
+}
+
+#project .title {
+    margin: 50px 0;
+}
+
+#project .row {
+    margin: 0 50px;
+}
+
+#project .project {
+    margin: 15px;
+    width: 45%;
+    justify-content: center;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+#project .project h3 {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+#project .project p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#project img {
+
+    max-width: 350px;
+}
+
+@media screen and (max-width:1200px) {
+    #project img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #project .project{
+        width: 80%;
+    }
+
+    #project .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #project .project{
+        width: 100%;
+    }
+
+    #project .project img{
+        width: 100%;
+    }
+
+    #project .row {
+        justify-content: center;
+    }
+}
+
+/* project */
+
+/* faq */
+
+#faq {   
+    background-image: linear-gradient(to right, #36C2CE, #478CCF) !important;
+}
+
+#faq .container {
+    padding: 50px;
+}
+
+
+#faq .row {
+    align-items: center;
+    justify-content: center;
+}
+#faq .accordion-item {
+    margin: auto;
+}
+
+#faq .accordion-item .accordion-button{
+    background-color: #333;
+    color: #fff;
+}
+
+.accordion-button::after {
+    background-color: #fff;
+}
+
+#faq .img-sosmed a:hover img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+#faq .img-sosmed img {
+    width: 3.5rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+/* faq */
+
